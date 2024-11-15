@@ -1,0 +1,27 @@
+@use "@/scss/variables.scss" as *;
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  margin-top: 60px;
+  &__links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    a {
+      @include link();
+    }
+  }
+  &__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    svg {
+      cursor: pointer;
+    }
+  }
+}

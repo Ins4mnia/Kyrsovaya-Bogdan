@@ -1,0 +1,31 @@
+@use "@/scss/variables.scss" as *;
+
+.TarifCard {
+  border: 1px solid #235ef133;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32.89px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.93px;
+  }
+  &__price {
+    color: $Blue;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 47.84px;
+  }
+}
